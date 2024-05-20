@@ -12,9 +12,9 @@
 
 2 - Instale as dependeências
     
-    ```npm install```
+    npm install
 
 3 - Execute o projeto
 
-    ```npm start```
+    npm start
 
