@@ -1,0 +1,129 @@
+body{
+    background-color: #F1F5F9;
+}
+
+.headWelcome {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 13px;
+    padding-right: 30px;
+    height: 70px;
+    gap: 0px;
+    opacity: 0px; 
+}
+
+.logout{
+    width: 272px;
+    height: 44px;
+    gap: 0px;
+    border-radius: 6.33px;
+    opacity: 0px;
+    background: #02274F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 85px;
+
+}
+.perfilImg{
+    width: 58px;
+    height: 56px;
+    top: 216px;
+    left: 696px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+.containerWelcomer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    background: #FFFFFF;
+  }
+  
+  .formWelcomer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 18px;
+    width: 356px;
+    height: 315px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px;
+    box-shadow: 0px 2px 10px 0px #0000001A;
+  }
+  
+  .inputContainerWelcomer input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: none;
+    padding: 18px;
+    border-radius: 9px;
+    background: #F1F1F1;
+    margin-bottom: 20px;
+    margin-top: 9px;
+    width: 296px;
+    height: 44px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+  }
+
+  .inputContainerWelcomer input::placeholder {
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    color: #262626;
+  }
+
+  .spanFirst {
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+  }
+  
+  .spanSecond {
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 12px;
+    text-align: left;
+  }
+
+  .tituloWelcome{
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    text-align: left;
+    padding-bottom: 12px;
+  }
+
+  @media(max-height: 540px){
+    .infos{
+        padding-top: 45px;
+
+    }
+
+}

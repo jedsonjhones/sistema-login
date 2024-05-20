@@ -1,0 +1,121 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    background-color: #FFFFFF;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 438px;
+    height: 534px;
+    padding: 55px 26.25px 40.13px 25.88px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 64px 0px #00000040;
+  }
+  
+  .logoImg {
+    width: 295px;
+    height: 116px;
+    background: #FFFFFF;
+  }
+  
+  .inputContainer label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 8px;
+  }
+  
+  .inputContainer input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: none;
+    padding: 18px;
+    border-radius: 9px;
+    background: #F1F1F1;
+    width: 385.88px;
+    margin-bottom: 20px;
+    margin-top: 9px;
+  }
+  
+  .button {
+    width: 385.88px;
+    padding: 15px;
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background: #02274F;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .profile-container {
+    opacity: 0;
+    transition: opacity 300ms ease-out;
+    margin-top: 20px;
+  }
+  
+  .profile-container.show {
+    display: block;
+    opacity: 1;
+
+  }
+  .show{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border: 2px solid red;
+    border-radius: 8px;
+    background-color: #ffe6e6; 
+    color: red;
+    font-family: Nunito, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .show p{
+    background-color: #ffe6e6;
+  }
+span{
+   font-family: Nunito;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 22.5px;
+   letter-spacing: 0.03em;
+   text-align: left;
+
+}
+/*Quando visto por telas menores */
+@media(max-height: 540px){
+    .form{
+        height: 480px;
+
+    }
+
+}
